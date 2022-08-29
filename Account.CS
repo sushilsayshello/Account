@@ -22,6 +22,12 @@ namespace Account
             {
                 return balance;
             }
+            
+            set
+            {
+                if ( value >= 0)
+                    balance = value;
+            }
 
         }
     }
