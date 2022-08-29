@@ -10,5 +10,14 @@ namespace Account
         {
             Balance = initialBalance;
         }
+        
+        public void Credit(decimal amount)
+        {
+            Balance = Balance + amount;
+        }
+        
+        public decimal Balance
+        {
+        }
     }
 }
