@@ -18,6 +18,11 @@ namespace Account
         
         public decimal Balance
         {
+            get
+            {
+                return balance;
+            }
+
         }
     }
 }
