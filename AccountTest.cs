@@ -8,6 +8,9 @@ namespace Account
     {
         public static void Main(string[] args)
         {
+            Account account1 = new Account(50.00M);
+            Account account2 = new Account(-7.53M);
+
  
 
         }
