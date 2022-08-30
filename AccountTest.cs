@@ -15,6 +15,11 @@ namespace Account
             Console.WriteLine("account2 balance: {0:C}\n", account2.Balance);
             
             decimal depositAmount;
+            
+            Console.Write("Enter deposit amount for account1: ");
+            depositAmount = Convert.ToDecimal(Console.ReadLine());
+
+
 
         }
     }
