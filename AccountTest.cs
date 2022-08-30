@@ -13,8 +13,8 @@ namespace Account
             
             Console.WriteLine("account1 balance: {0:C}", account1.Balance);
             Console.WriteLine("account2 balance: {0:C}\n", account2.Balance);
-
-
+            
+            decimal depositAmount;
 
         }
     }
