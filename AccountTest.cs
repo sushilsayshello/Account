@@ -27,6 +27,11 @@ namespace Account
             
             Console.Write("\nEnter deposit amount for account2: ");
             depositAmount = Convert.ToDecimal(Console.ReadLine());
+            
+            Console.WriteLine("adding {0:C} to account2 balance\n", depositAmount);
+            account2.Credit(depositAmount);
+            
+            
 
 
         }
