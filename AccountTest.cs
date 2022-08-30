@@ -21,6 +21,11 @@ namespace Account
             
             Console.WriteLine("adding {0:C} to account1 balance\n", depositAmount);
             account1.Credit(depositAmount);
+            
+            Console.WriteLine("account1 balance: {0:C}", account1.Balance);
+            Console.WriteLine("account2 balance: {0:C}", account2.Balance);
+
+
 
         }
     }
